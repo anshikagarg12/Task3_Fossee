@@ -31,7 +31,7 @@ cd Task3\_Fossee
 
 
 
-\##3️⃣ Install Dependencies
+##3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
@@ -141,7 +141,7 @@ jupyter notebook
 
 
 
-\##7️⃣ Notes
+##7️⃣ Notes
 
 
 
