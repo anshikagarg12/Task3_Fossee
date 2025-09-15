@@ -70,13 +70,13 @@ Create a .env file in the root folder:
 
 /# .env
 
-OPENAI/_API/_KEY=your/_openai/_api/_key
+OPENAI_API_KEY=your_openai_api_key
 
-GOOGLE/_API/_KEY=your/_gemini/_api/_key
+GOOGLE_API_KEY=your_gemini_api_key
 
-ANTHROPIC/_API/_KEY=your/_claude/_api/_key
+ANTHROPIC_API_KEY=your_claude_api_key
 
-PERPLEXITY/_API/_KEY=your/_perplexity/_api/_key
+PERPLEXITY_API_KEY=your_perplexity_api_key
 
 ```
 
@@ -94,15 +94,7 @@ Run each model’s evaluation script to generate prompts and feedback on student
 
 
 ```bash
-python src/chatgpt/_eval.py
-
-python src/gemini/_eval.py
-
-python src/claude/_eval.py
-
-python src/perplexity/_eval.py
-
-python src/starcoder/_eval.py
+python src/evaluate.py
 
 
 ```
