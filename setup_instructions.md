@@ -25,9 +25,9 @@ This guide explains how to set up your Python environment and run evaluations fo
 
 ```bash
 
-git clone https://github.com/anshikagarg12/Task3\_Fossee
+git clone https://github.com/anshikagarg12/Task3/_Fossee
 
-cd Task3\_Fossee
+cd Task3/_Fossee
 
 ```
 
@@ -68,15 +68,15 @@ Create a .env file in the root folder:
 
 ```bash
 
-\# .env
+/# .env
 
-OPENAI\_API\_KEY=your\_openai\_api\_key
+OPENAI/_API/_KEY=your/_openai/_api/_key
 
-GOOGLE\_API\_KEY=your\_gemini\_api\_key
+GOOGLE/_API/_KEY=your/_gemini/_api/_key
 
-ANTHROPIC\_API\_KEY=your\_claude\_api\_key
+ANTHROPIC/_API/_KEY=your/_claude/_api/_key
 
-PERPLEXITY\_API\_KEY=your\_perplexity\_api\_key
+PERPLEXITY/_API/_KEY=your/_perplexity/_api/_key
 
 ```
 
@@ -94,21 +94,21 @@ Run each model’s evaluation script to generate prompts and feedback on student
 
 
 ```bash
-python src/chatgpt\_eval.py
+python src/chatgpt/_eval.py
 
-python src/gemini\_eval.py
+python src/gemini/_eval.py
 
-python src/claude\_eval.py
+python src/claude/_eval.py
 
-python src/perplexity\_eval.py
+python src/perplexity/_eval.py
 
-python src/starcoder\_eval.py
+python src/starcoder/_eval.py
 
 
 ```
 
 
-Each script will read Python files from data/student\_submissions/.
+Each script will read Python files from data/student/_submissions/.
 
 
 
@@ -130,15 +130,15 @@ jupyter notebook
 
 
 
-01\_data\_prep.ipynb → Load and inspect student submissions
+01/_data/_prep.ipynb → Load and inspect student submissions
 
 
 
-02\_model\_queries.ipynb → Query all 5 models
+02/_model/_queries.ipynb → Query all 5 models
 
 
 
-03\_analysis.ipynb → Compare outputs and visualize results
+03/_analysis.ipynb → Compare outputs and visualize results
 
 
 
@@ -158,7 +158,7 @@ Ensure Python environment has sufficient RAM for StarCoder (>8GB recommended).
 
 
 
-For reproducibility, always use the provided data/student\_submissions/ folder or add new student code in the same format.
+For reproducibility, always use the provided data/student/_submissions/ folder or add new student code in the same format.
 
 
 
