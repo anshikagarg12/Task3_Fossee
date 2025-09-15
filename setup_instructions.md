@@ -130,15 +130,15 @@ jupyter notebook
 
 
 
-01/_data/_prep.ipynb → Load and inspect student submissions
+data_prep.ipynb → Load and inspect student submissions
 
 
 
-02/_model/_queries.ipynb → Query all 5 models
+model_queries.ipynb → Query all 5 models
 
 
 
-03/_analysis.ipynb → Compare outputs and visualize results
+analysis.ipynb → Compare outputs and visualize results
 
 
 
