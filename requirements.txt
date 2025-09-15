@@ -1,0 +1,34 @@
+# Core utilities
+numpy>=1.24.0
+pandas>=2.1.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Jupyter support
+notebook>=7.0.0
+ipython>=8.16.0
+
+# OpenAI ChatGPT API
+openai>=1.0.0
+
+# Gemini (Google DeepMind) API client
+google-generativeai>=0.1.0
+
+# Anthropic Claude API
+anthropic>=0.6.0
+
+# Perplexity AI (if using API wrapper)
+# Use a wrapper like perplexity-client if available
+perplexity-client>=0.1.0
+
+# StarCoder (HuggingFace Transformers)
+transformers>=4.34.0
+torch>=2.1.0
+
+# Optional: code formatting / analysis tools
+black>=24.8.0
+flake8>=6.1.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.12.2
