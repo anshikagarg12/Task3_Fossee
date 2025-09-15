@@ -29,13 +29,14 @@ git clone https://github.com/anshikagarg12/Task3\_Fossee
 
 cd Task3\_Fossee
 
+```
 
 
-##3️⃣ Install Dependencies
-
+## 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 
-
+```
 
 
 
@@ -59,13 +60,13 @@ Optional code analysis and visualization tools (black, flake8, matplotlib, seabo
 
 
 
-\##4️⃣ Configure API Keys
+## 4️⃣ Configure API Keys
 
 
 
 Create a .env file in the root folder:
 
-
+```bash
 
 \# .env
 
@@ -77,7 +78,7 @@ ANTHROPIC\_API\_KEY=your\_claude\_api\_key
 
 PERPLEXITY\_API\_KEY=your\_perplexity\_api\_key
 
-
+```
 
 
 
@@ -85,14 +86,14 @@ Make sure you never commit your .env to public repositories.
 
 
 
-\##5️⃣ Running Model Evaluation Scripts
+## 5️⃣ Running Model Evaluation Scripts
 
 
 
 Run each model’s evaluation script to generate prompts and feedback on student Python code:
 
 
-
+```bash
 python src/chatgpt\_eval.py
 
 python src/gemini\_eval.py
@@ -104,7 +105,7 @@ python src/perplexity\_eval.py
 python src/starcoder\_eval.py
 
 
-
+```
 
 
 Each script will read Python files from data/student\_submissions/.
@@ -115,7 +116,7 @@ Outputs will be saved in results/raw/ and results/processed/.
 
 
 
-\##6️⃣ Jupyter Notebook Testing (Optional)
+## 6️⃣ Jupyter Notebook Testing (Optional)
 
 
 
@@ -141,7 +142,7 @@ jupyter notebook
 
 
 
-##7️⃣ Notes
+## 7️⃣ Notes
 
 
 
